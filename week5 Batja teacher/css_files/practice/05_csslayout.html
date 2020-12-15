@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<style>
+html, body{
+	margin: 0;
+	height: 100%;
+}
+#div2 {
+	left: 99px;
+}
+#div3 {
+	left: 198px;
+}
+#div4 {
+	top: 99px;
+}
+#div5 {
+	top: 99px;
+	left: 99px;
+}
+#div6 {
+	top: 99px;
+	left: 198px;
+}
+#div7 {
+	top: 198px;
+}
+#div8 {
+	top: 198px;
+	left: 99px;
+}
+#div9 {
+	top: 198px;
+	left: 198px;
+}
+.cell {
+	background-color:orange;
+	border: 1px solid white;
+	width: 98px;
+	height: 98px;
+	color: white;
+	text-align: center;
+	line-height: 98px;
+	position: absolute;
+}
+
+#box {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:yellow;
+	border: 2px solid white;
+	position: relative;
+	text-align: center;
+	width: 298px;
+	height: 298px;
+}
+
+#container {
+	background-color: #DDD;
+	height: 100%;
+	position: relative;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<div id="box">	
+			<div id="div1" class="cell">One</div>
+			<div id="div2" class="cell">Two</div>
+			<div id="div3" class="cell">Three</div>
+			<div id="div4" class="cell">Four</div>
+			<div id="div5" class="cell">Five</div>
+			<div id="div6" class="cell">Six</div>
+			<div id="div7" class="cell">Seven</div>
+			<div id="div8" class="cell">Eight</div>
+			<div id="div9" class="cell">Nine</div>
+		</div>
+	<div>
+</body>
+</html>
